@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+// import Login from '../../../Login'
+// import Register from "../../../Register";
 
 const Header = ({cartItems}) => {
   return (
@@ -20,7 +22,12 @@ const Header = ({cartItems}) => {
         </ul>
         <ul>
           <li>
-            <Link to="/signup">Signup</Link>
+            <Link to="Login">Login</Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <Link to="Register">Register</Link>
           </li>
         </ul>
         <ul>

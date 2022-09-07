@@ -53,6 +53,7 @@ const Cart = ({
       <div className="cart-items-total-price-name">
         Total price
         <div className="cart-items-total-price"> ${totalPrice}</div>
+       
       </div>
     </div>
   );

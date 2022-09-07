@@ -1,8 +1,9 @@
 import React from "react";
 import Products from "../Products/Products";
-import Signup from "../Signup/Signup";
+import Login from "../../../Login";
 import Cart from "../Cart/Cart";
 import { Route, Switch } from "react-router-dom";
+import Register from '../../../Register'
 
 const Routes = ({
   productItems,
@@ -20,8 +21,11 @@ const Routes = ({
             handleAddProduct={handleAddProduct}
           />
         </Route>
-        <Route path="/signup" exact>
-          <Signup />
+        <Route path="/Login" exact>
+          <Login />
+        </Route>
+        <Route path="/Register" exact>
+          <Register />
         </Route>
         <Route path="/cart" exact>
           <Cart
