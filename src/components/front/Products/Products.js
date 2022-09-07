@@ -20,7 +20,7 @@ const Products = ({ productItems, handleAddProduct }) => {
           <div className="product-price">${productItem.price}</div>
           <div>
             <button
-              className="product-add-button"
+              className=" product-add-button "
               onClick={() => handleAddProduct(productItem)}
             >
               Add to Cart
